@@ -1,0 +1,129 @@
+{
+  "version": "0.9.6",
+  "task_type": "det",
+  "shapes": [
+    {
+      "label": "MetalSheet",
+      "points": [
+        [
+          23.47293447293447,
+          34.27920227920227
+        ],
+        [
+          76.0,
+          99.0
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          30.6,
+          36.5
+        ],
+        [
+          43.599999999999994,
+          51.400000000000006
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          45.900000000000006,
+          37.3
+        ],
+        [
+          58.2,
+          53.5
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          60.3,
+          37.4
+        ],
+        [
+          73.3,
+          50.2
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          32.7,
+          85.5
+        ],
+        [
+          45.2,
+          98.0
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          46.099999999999994,
+          84.1
+        ],
+        [
+          58.900000000000006,
+          97.7
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          61.2,
+          84.9
+        ],
+        [
+          74.2,
+          98.4
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    }
+  ],
+  "imageHeight": 100,
+  "imageWidth": 100,
+  "imageDepth": 4,
+  "split": "valid"
+}

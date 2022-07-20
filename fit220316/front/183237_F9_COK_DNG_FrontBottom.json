@@ -1,0 +1,129 @@
+{
+  "version": "0.9.6",
+  "task_type": "det",
+  "shapes": [
+    {
+      "other_data": {},
+      "label": "MetalSheet",
+      "points": [
+        [
+          22.099999999999994,
+          32.5
+        ],
+        [
+          91.0,
+          88.30000000000001
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          30.299999999999997,
+          34.900000000000006
+        ],
+        [
+          43.599999999999994,
+          50.900000000000006
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          30.02702702702703,
+          51.599999999999994
+        ],
+        [
+          44.29729729729729,
+          63.97297297297297
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          29.799999999999997,
+          64.7
+        ],
+        [
+          46.099999999999994,
+          78.7
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          78.0,
+          64.7
+        ],
+        [
+          91.5,
+          77.6
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          76.9,
+          49.400000000000006
+        ],
+        [
+          91.5,
+          63.599999999999994
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "other_data": {},
+      "label": "Bead",
+      "points": [
+        [
+          78.5,
+          35.599999999999994
+        ],
+        [
+          90.4,
+          48.3
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imageHeight": 100,
+  "imageWidth": 100,
+  "imageDepth": 4,
+  "split": "train"
+}

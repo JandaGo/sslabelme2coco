@@ -1,12 +1,11 @@
 import os
 import argparse
 import json
-
+import cv2
 from labelme import utils
 import numpy as np
 import glob
 import PIL.Image
-
 
 class labelme2coco(object):
     def __init__(self, labelme_json=[], save_json_path="./coco.json"):
@@ -28,6 +27,7 @@ class labelme2coco(object):
 
     def data_transfer(self):
         for num, json_file in enumerate(self.labelme_json):
+            print(num)
             with open(json_file, "r") as fp:
                 data = json.load(fp)
                 self.images.append(self.image(data, num))
@@ -47,14 +47,28 @@ class labelme2coco(object):
             annotation["category_id"] = self.getcatid(annotation["category_id"])
 
     def image(self, data, num):
+        
         image = {}
-        img = utils.img_b64_to_arr(data["imageData"])
+        # img = utils.img_b64_to_arr(data["imageData"])
+        i = 0
+        img_read = cv2.imread(str(labelme_bmp[num]), cv2.IMREAD_COLOR)
+        print(img_read)
+        img = img_read
+        # print(img.shape)
         height, width = img.shape[:2]
         img = None
         image["height"] = height
         image["width"] = width
         image["id"] = num
-        image["file_name"] = data["imagePath"].split("/")[-1]
+        f_name = os.path.basename(labelme_bmp[num])
+        # image["file_name"] = imageData_path#'171218_F1_COK_DNG_FrontTop.bmp'
+        image["file_name"] = f_name
+        print('_____________________________________________________________________')
+        # print(image["file_name"])
+        print(num)
+        print('_____________________________________________________________________')
+
+        # print(data["imagePath"])
 
         self.height = height
         self.width = width
@@ -146,7 +160,6 @@ class labelme2coco(object):
 
 if __name__ == "__main__":
     import argparse
-
     parser = argparse.ArgumentParser(
         description="labelme annotation to coco data json file."
     )
@@ -160,4 +173,13 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     labelme_json = glob.glob(os.path.join(args.labelme_images, "*.json"))
+    labelme_bmp = glob.glob(os.path.join(args.labelme_images, "*.bmp"))
+
+
+    # print(labelme_bmp)
+    # imageData_path = os.path.basename(labelme_bmp)
+    # for i in range(len(labelme_bmp)):
+        
+    #     print(labelme_bmp[i])
+        # print(img_read)
     labelme2coco(labelme_json, args.output)

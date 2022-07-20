@@ -1,0 +1,129 @@
+{
+  "version": "0.9.6",
+  "task_type": "det",
+  "shapes": [
+    {
+      "label": "MetalSheet",
+      "points": [
+        [
+          10.225071225071222,
+          13.623931623931622
+        ],
+        [
+          80.45299145299144,
+          70.03418803418803
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          16.635327635327634,
+          18.75213675213675
+        ],
+        [
+          29.598290598290596,
+          31.14529914529914
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          16.49287749287749,
+          35.56125356125356
+        ],
+        [
+          30.168091168091166,
+          46.672364672364665
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          17.347578347578345,
+          51.37321937321937
+        ],
+        [
+          30.737891737891736,
+          61.77207977207976
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          65.06837606837607,
+          19.179487179487175
+        ],
+        [
+          77.03418803418803,
+          31.43019943019943
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          64.49857549857549,
+          35.13390313390313
+        ],
+        [
+          77.31908831908831,
+          47.24216524216524
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          65.21082621082621,
+          50.80341880341879
+        ],
+        [
+          77.46153846153845,
+          61.48717948717949
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    }
+  ],
+  "imageHeight": 100,
+  "imageWidth": 100,
+  "imageDepth": 4,
+  "split": "valid"
+}

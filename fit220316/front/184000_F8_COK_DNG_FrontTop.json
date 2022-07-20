@@ -1,0 +1,95 @@
+{
+  "version": "0.9.6",
+  "task_type": "det",
+  "shapes": [
+    {
+      "label": "MetalSheet",
+      "points": [
+        [
+          69.46578366445915,
+          17.06843267108168
+        ],
+        [
+          1.6953642384105905,
+          72.69757174392936
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          63.28476821192052,
+          19.717439293598233
+        ],
+        [
+          53.350993377483434,
+          30.75496688741721
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          50.92273730684326,
+          34.50772626931567
+        ],
+        [
+          65.93377483443707,
+          47.75275938189844
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          51.14348785871964,
+          49.73951434878586
+        ],
+        [
+          66.59602649006622,
+          62.76379690949227
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    },
+    {
+      "label": "Bead",
+      "points": [
+        [
+          1.6953642384105905,
+          19.275938189845476
+        ],
+        [
+          22.2251655629139,
+          31.637969094922738
+        ]
+      ],
+      "shape_type": "rectangle",
+      "flags": {},
+      "group_id": null,
+      "other_data": {}
+    }
+  ],
+  "imageHeight": 100,
+  "imageWidth": 100,
+  "imageDepth": 4,
+  "split": "valid"
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.9.7",
+  "task_type": "det",
+  "shapes": [
+    {
+      "label": "MetalSheet",
+      "points": [
+        [
+          15.38176638176638,
+          23.62393162393162
+        ],
+        [
+          108.25925925925925,
+          96.4159544159544
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "split": "train",
+  "imageHeight": 120,
+  "imageWidth": 120,
+  "imageDepth": 4
+}
